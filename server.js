@@ -1,6 +1,6 @@
 const jsonServer = require('json-server');
 const server = jsonServer.create();
-const router = jsonServer.router('honestabe.json');
+const router = jsonServer.router('kittypurry.json');
 const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3000;
 

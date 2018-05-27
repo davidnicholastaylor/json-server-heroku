@@ -103,35 +103,35 @@
     "interests": [
         {
             "id": 8,
-            "about": "exercitation"
+            "name": "Military"
         },
         {
             "id": 1,
-            "about": "commodo"
+            "name": "Economics"
         },
         {
             "id": 2,
-            "about": "incididunt"
+            "name": "Immigration"
         },
         {
             "id": 3,
-            "about": "pariatur"
+            "name": "Energy"
         },
         {
             "id": 4,
-            "about": "ad"
+            "name": "Environment"
         },
         {
             "id": 5,
-            "about": "elit"
+            "name": "Native American Rights"
         },
         {
             "id": 6,
-            "about": "nulla"
+            "name": "Education"
         },
         {
             "id": 7,
-            "about": "aliquip"
+            "name": "Foreign Affairs"
         }
     ],
     "pacs": [
@@ -279,6 +279,21 @@
             "legislationId": 1
         },
         {
+            "id": 10,
+            "politicianId": 2,
+            "legislationId": 8
+        },
+        {
+            "id": 11,
+            "politicianId": 2,
+            "legislationId": 6
+        },
+        {
+            "id": 12,
+            "politicianId": 2,
+            "legislationId": 5
+        },
+        {
             "id": 2,
             "politicianId": 1,
             "legislationId": 2
@@ -312,6 +327,36 @@
             "id": 8,
             "politicianId": 7,
             "legislationId": 2
+        },
+        {
+            "id": 9,
+            "politicianId": 4,
+            "legislationId": 8
+        },
+        {
+            "id": 13,
+            "politicianId": 5,
+            "legislationId": 7
+        },
+        {
+            "id": 14,
+            "politicianId": 5,
+            "legislationId": 8
+        },
+        {
+            "id": 15,
+            "politicianId": 8,
+            "legislationId": 3
+        },
+        {
+            "id": 16,
+            "politicianId": 9,
+            "legislationId": 4
+        },
+        {
+            "id": 17,
+            "politicianId": 9,
+            "legislationId": 3
         }
     ],
     "legislationinterests": [
@@ -413,7 +458,7 @@
         {
             "id": 19,
             "legislationId": 8,
-            "interestId": 4
+            "interestId": 8
         },
         {
             "id": 20,

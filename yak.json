@@ -1,165 +1,89 @@
 {
   "users": [
     {
-      "email": "steve@stevebrownlee.com",
-      "name": {
-        "first": "Steve",
-        "last": "Brownlee"
-      },
-      "password": "me",
+      "sub": "google-oauth2|104692490782884191605",
+      "given_name": "Steve",
+      "family_name": "Brownlee",
+      "nickname": "chortlehoort",
+      "name": "Steve Brownlee",
+      "picture": "https://lh6.googleusercontent.com/-Fu2HawFGmbI/AAAAAAAAAAI/AAAAAAAAXTM/NF_Cn-nBAjE/photo.jpg",
+      "gender": "male",
+      "locale": "en",
+      "updated_at": "2018-06-08T20:48:41.645Z",
+      "id": 8
+    },
+    {
+      "sub": "google-oauth2|104692490782884191618",
+      "given_name": "Joe",
+      "family_name": "Shepherd",
+      "nickname": "joeshep",
+      "name": "Joe Shepherd",
+      "picture": "https://lh3.googleusercontent.com/Ye08EmtGKL7442gCcpXYmYUmAJTsX2twfDKk9CIVOYMPVthfVwK78rnODRIwCp2cW1p0V2ZkR4Uecw=s577-rw-no",
+      "gender": "male",
+      "locale": "en",
+      "updated_at": "2018-06-08T20:48:41.645Z",
+      "id": 9
+    },
+    {
+      "sub": "google-oauth2|104692490782884191606",
+      "given_name": "Meg",
+      "family_name": "Ducharme",
+      "nickname": "megducharme",
+      "name": "Meg Ducharme",
+      "picture": "https://lh3.googleusercontent.com/esf4fDZ8gg6TlzO3Qbh8pQgPdqu76yiZVO40KvNrJLWuHLq2JKDiP_vvXxY6E_QXYnzIWQXiL0_RAw=w1171-h1168-rw-no",
+      "gender": "female",
+      "locale": "en",
+      "updated_at": "2018-06-08T20:48:41.645Z",
       "id": 1
     },
     {
-      "email": "joe@shepherd.com",
-      "name": {
-        "first": "Joe",
-        "last": "Shepherd"
-      },
-      "password": "me",
-      "id": 2
-    },
-    {
-      "email": "jisie@david.com",
-      "name": {
-        "first": "Jisie",
-        "last": "David"
-      },
-      "password": "me",
-      "id": 3
-    },
-    {
-      "email": "hannah@hall.com",
-      "name": {
-        "first": "Hannah",
-        "last": "Hall"
-      },
-      "password": "me",
-      "id": 5
-    },
-    {
-      "email": "meg@ducharme.com",
-      "name": {
-        "first": "Meg",
-        "last": "Ducharme"
-      },
-      "password": "me",
-      "id": 4
+      "sub": "google-oauth2|114447427911375071246",
+      "given_name": "Steve",
+      "family_name": "Brownlee",
+      "nickname": "steve",
+      "name": "Steve Brownlee",
+      "picture": "https://lh5.googleusercontent.com/-xKN_6LITeoU/AAAAAAAAAAI/AAAAAAAAA7s/0t53_QkYxDY/photo.jpg",
+      "locale": "en",
+      "updated_at": "2018-06-08T23:54:55.616Z",
+      "id": 10
     }
   ],
   "friends": [
     {
-      "id": 1,
       "requestingFriendId": 1,
-      "acceptedFriendId": 4,
-      "pending": false
+      "acceptedFriendId": 8,
+      "pending": true,
+      "id": 1
     },
     {
-      "id": 2,
-      "requestingFriendId": 1,
-      "acceptedFriendId": 3,
-      "pending": false
+      "requestingFriendId": 8,
+      "acceptedFriendId": 9,
+      "pending": false,
+      "id": 2
     },
     {
-      "id": 3,
-      "requestingFriendId": 1,
-      "acceptedFriendId": 2,
-      "pending": false
+      "requestingFriendId": 8,
+      "acceptedFriendId": 1,
+      "pending": false,
+      "id": 3
     },
     {
-      "id": 4,
-      "requestingFriendId": 1,
-      "acceptedFriendId": 5,
-      "pending": false
-    },
-    {
-      "requestingFriendId": 5,
-      "acceptedFriendId": 4,
-      "id": 5,
-      "pending": false
-    },
-    {
-      "requestingFriendId": 3,
-      "acceptedFriendId": 5,
-      "id": 6,
-      "pending": true
-    },
-    {
-      "requestingFriendId": 4,
-      "acceptedFriendId": 5,
-      "id": 6,
-      "pending": true
+      "requestingFriendId": 10,
+      "acceptedFriendId": 8,
+      "pending": true,
+      "id": 4
     }
   ],
   "posts": [
     {
-      "message": "First attempt",
-      "userId": 1,
+      "message": "Hi this is Steve",
+      "userId": 8,
       "id": 1
     },
     {
-      "message": "Got the basic version working tonight after a couple hours playing around with different options for component relationships",
-      "userId": 1,
+      "message": "I logged in via Google",
+      "userId": 8,
       "id": 2
-    },
-    {
-      "message": "What??",
-      "userId": 1,
-      "id": 3
-    },
-    {
-      "message": "Hi, I'm steve",
-      "userId": 1,
-      "id": 4
-    },
-    {
-      "message": "Different relationships around version couple basic",
-      "userId": 1,
-      "id": 5
-    },
-    {
-      "message": "123",
-      "userId": 1,
-      "id": 6
-    },
-    {
-      "message": "abc",
-      "userId": 1,
-      "id": 7
-    },
-    {
-      "message": "321",
-      "userId": 1,
-      "id": 8
-    },
-    {
-      "message": "tree",
-      "userId": 1,
-      "id": 9
-    },
-    {
-      "message": "r2vwgrvgr",
-      "userId": 1,
-      "id": 10
-    },
-    {
-      "message": "Choopin broccoli",
-      "userId": 1,
-      "id": 11
-    },
-    {
-      "message": "Testing the quick brown fox jumped over the lazy dog",
-      "userId": 4,
-      "id": 12
-    },
-    {
-      "message": "Hi, I'm hannah",
-      "userId": 5,
-      "id": 13
-    },
-    {
-      "message": "I taught at Nashville Software School",
-      "userId": 5,
-      "id": 14
     }
   ],
   "events": [],
